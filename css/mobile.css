@@ -1,0 +1,365 @@
+
+BODY { background-color:#cccccd;font-family:"Source Sans Pro";margin:0px;padding:0px;}
+
+.clear { clear:both; }
+.center {text-align:center;}
+.hidden {display:none;}
+
+.tal {text-align:left;}
+.tar {text-align:right;}
+
+TEXTAREA {font-family:"Source Sans Pro";}
+INPUT[type=text] {font-family:"Source Sans Pro";}
+INPUT[type=password] {font-family:"Source Sans Pro";}
+INPUT[type=submit] {font-family:"Source Sans Pro";}
+SELECT  {font-family:"Source Sans Pro";}
+
+#container {margin:33px 0px 0px 0px;}
+
+#faq H3 {text-align:left;font-weight:normal;font-size:1.1em;line-height:1.5em;margin:0px;padding:20px 0px 5px 0px;color:#555555;}
+#faq P {text-align:left;font-weight:normal;font-size:1em;line-height:1.5em;margin:0px;padding:0px 0px 10px 0px;color:#555555;}
+
+#header {text-align:center;padding:10px 0px 10px 0px;}
+#header H1 {margin:20px 0px 20px 0px;padding:0px;font-weight:normal;font-size:3em;color:#555555;}
+#header H1 SPAN {color:#555555;}
+#header P {color:#555555;}
+#header A{color:#000000;text-decoration:none;}
+#header A:hover {color:#0000aa;text-decoration:underline;}
+
+#header TABLE {margin:0px auto 0px auto;}
+#header TABLE INPUT {padding:5px;font-size:1.2em;}
+#header TABLE BUTTON {padding:3px;font-size:1.2em;}
+
+#footer {text-align:center;font-size:1em;color:#777777;margin:20px auto 20px auto;}
+#footer A {color:#555555;text-decoration:none;}
+#footer A:hover {color:#446688;text-decoration:underline;}
+
+.terms P {font-size:1em; color:#555555;}
+
+.top-menu-wrapper {background-color:rgba(0, 0, 0, 0.7);position:fixed;width:100%;top:0px;left:0px;margin:0px;padding:0px;z-index:99999;}
+
+.top-menu {float:left;list-style-type:none;margin:0px 0px 0px 10px;padding:0px;white-space:nowrap;}
+.top-menu LI {padding:1px;font-size:0.9em; margin:2px;display:inline-block;}
+.top-menu LI A {color:#cccccc;text-decoration:none;line-height:26px;}
+.top-menu LI.sitename A {color:#fff;font-weight:900;font-size:1.1em;}
+
+.top-menu-wrapper .user {display:inline;margin:0px 10px 0px 0px;padding:0px;float:right;}
+.top-menu-wrapper .user TD {font-size:1em;margin:0px;padding:0px;}
+.top-menu-wrapper .user IMG {margin:0px 5px 0px 0px;}
+.top-menu-wrapper .user TD A {color:#cccccc;text-decoration:none;line-height:30px;}
+.top-menu-wrapper .user TD A:hover {color:#ffffff;}
+.top-menu-wrapper .user IMG {border-radius:2px;}
+
+.bg_menu_wrapper {background-color:#aaaaab;overflow:auto;}
+.bg_menu {list-style-type: none;margin:0px;padding:5px 0px 0px 10px; white-space:nowrap;}
+.bg_menu .selected {background-color:#cccccd;}
+.bg_menu .selected A {color:#555555;}
+.bg_menu LI {background-color:#bbbbbc;display:inline-block;padding:3px 5px 3px 5px;margin:0px 5px 0px 0px;font-size:1em;}
+.bg_menu LI A {color:#555555;text-decoration:none;padding:2px;}
+.bg_menu LI A:hover {color:#446688;text-decoration:underline;}
+
+.profile_menu_wrapper {background-color:#ffffff;overflow:auto;}
+.profile_menu {list-style-type: none;margin:0px;padding:5px 0px 0px 10px; white-space:nowrap;}
+.profile_menu .selected {background-color:#cccccd;}
+.profile_menu .selected A {color:#555555;}
+.profile_menu LI {background-color:#eeeeee;display:inline-block;padding:3px 5px 3px 5px;margin:0px 5px 0px 0px;font-size:1em;}
+.profile_menu LI A {color:#555555;text-decoration:none;padding:2px;}
+.profile_menu LI A:hover {color:#446688;text-decoration:underline;}
+
+.page_tabs {margin:0px auto 0px auto;}
+.page_tabs UL {margin:5px 0px 0px 0px;padding:0px 0px 0px 0px;list-style-type: none;}
+.page_tabs UL LI {float:left;padding:5px 10px 5px 10px;margin:0px 5px 0px 5px;font-size:0.8em; background-color:#ddddde;}
+.page_tabs UL .selected {background-color:#ffffff;}
+.page_tabs UL LI A {color:#888888;text-decoration:none;padding:2px;}
+.page_tabs UL LI A:hover {color:#446688;text-decoration:underline;}
+
+.page_wrapper {margin:5px auto 2px auto;}
+.page { background-color:#ffffff; padding:10px;margin:0px 5px 5px 5px;text-align:left;}
+.page H1 {text-align:center;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;font-weight:bold;font-size:3em;}
+.page H3 {text-align:center;margin:0px;padding:10px 0px 5px 0px;font-weight:normal;font-size:1.1em;}
+.page P {text-align:center;color:#555555;}
+.page TABLE {width:70%;margin-left:15%;margin-right:15%;margin-top:10px;margin-bottom:10px;}
+.page TH {font-weight:normal;text-align:left;font-size:1em;background-color:#ddddde;}
+.page TD {font-weight:normal;text-align:left;font-size:1em;background-color:#ddddde;}
+.page INPUT[type=text] {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+.page INPUT[type=password] {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+.page INPUT[type=submit] {font-family:"Source Sans Pro";padding:5px;font-size:1.2em;text-align:center;margin:20px auto 20px auto;}
+.page P A {text-decoration:none;color:#888888;}
+.page P A:hover {text-decoration:underline;color:#446688;}
+
+#header .buttons {margin:10px auto 0px auto;padding:0px;list-style-type: none;text-align:center;}
+#header .buttons LI {display:inline;}
+
+#header .button {text-align:center;margin:10px 0px 0px 0px;}
+#header .button A {background-color:#ddddde;border-radius: 3px;text-decoration:none;color:#555555;padding:2px 5px 2px 5px;}
+#header .button A:hover {background-color:#dddddd;color:#ffffff;}
+
+#terms {text-align:left !important; height:400px; overflow:scroll;}
+#terms H3 {text-align:left !important;}
+#terms P {text-align:left !important;}
+
+FORM {text-align:center;}
+
+.pagination {margin:10px auto 10px auto;}
+.pagination UL {margin:10px 0px 10px 0px;padding:0px;text-align:center;}
+.pagination LI {display:inline;margin:0px 2px 0px 2px;}
+.pagination UL LI A {padding:3px 6px 3px 6px;background-color:#ddddde;text-decoration:none;color:#555555;}
+.pagination UL LI A:hover {background-color:#ffffff;color:#555555;}
+.pagination .selected {background-color:#ffffff;color:#555555;}
+
+.notice { background-color:#ffffaa;padding:10px;margin:10px 0px 10px 0px;border-bottom:1px solid #eeccaa;border-right:1px solid #eeccaa;}
+.notice H3 {font-weight:normal;font-size:1.1em;color:#000000;text-align:center;}
+.notice P {font-size:0.8em;color:#555555;text-align:center;}
+
+#account_form {width:100%; margin:0px auto 0px auto; text-align:center; background-color:#ffffff; padding:10px;}
+#account_form H1 {text-align:center;margin:0px;padding:0px;font-weight:bold;font-size:3em;}
+#account_form P {text-align:center;color:#555555;}
+#account_form TABLE {width:100%;margin-left:0%;margin-right:0%;margin-top:10px;margin-bottom:10px;}
+#account_form TH {font-weight:normal;text-align:left;font-size:1em; background-color:#ddddde; color:#555555;}
+#account_form TD {font-weight:normal;text-align:left;font-size:1em; background-color:#ddddde;}
+#account_form INPUT[type=text] {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+#account_form INPUT[type=password] {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+#account_form TEXTAREA {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+#account_form INPUT[type=submit] {font-family:"Source Sans Pro";padding:5px;font-size:1.2em;}
+#account_form .heading {background-color:#ffffff;}
+#account_form .heading H3 {margin:10px 0px 0px 0px;padding:0px;font-family:"Source Sans Pro";font-weight:normal;font-size:1em;text-align:left;}
+#account_form .heading P {font-size:0.8em;color:#777777;text-align:left;margin:0px;padding:0px;}
+#account_form SPAN {font-size:0.8em;color:#777777;text-align:left;margin:0px;padding:0px;}
+
+#post_form {margin:0px 5px 0px 5px; text-align:center; background-color:#ffffff; padding:0px;}
+#post_form H1 {text-align:left;margin:0px;padding:10px;font-weight:normal;font-size:2em;}
+#post_form P {text-align:center;color:#555555;}
+#post_form .form_field {text-align:left; padding:5px; margin:0px 0px 1px 0px;}
+#post_form .form_field_label {text-align:left;font-size:1em;}
+#post_form .form_field_label SMALL {color:#777777;}
+#post_form .form_field_control {text-align:left;}
+#post_form .form_field_control IMG {border:1px solid #dddddd;padding:1px; margin:3px;}
+#post_form INPUT[type=text] {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+#post_form INPUT[type=submit] {font-family:"Source Sans Pro";padding:5px;font-size:1.2em;margin:10px 0px 10px 0px;}
+#post_form TEXTAREA {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+#post_form SELECT {border:1px solid #cccccc;padding:3px;font-size:1em;}
+
+
+#content {width:100%px;float:left;}
+
+.profile_header_wrapper {width:100%; background-color:#ffffff;margin:0px;padding:0px;}
+.profile_header {padding:0px;padding:10px;}
+.profile_header .avatar {float:left;width:64px;height:64px;padding:20px 0px 0px 0px;}
+.profile_header .karma {float:right;padding:30px 0px 0px 0px; display:none;}
+.profile_header .karma H1 {margin:0px;padding:0px;font-weight:bold;font-size:2em;color:#ddd; display:none;}
+.profile_header .username {float:left;padding:30px 0px 0px 10px;}
+.profile_header .username H1 {text-align:left !important;margin:0px;padding:0px;font-weight:bold;font-size:2em;color:#000000;}
+.profile_header .about {width:100%;margin:0px;padding:10px 0px 0px 0px;color:#555555;}
+.profile_header .about P {width:100%; text-align:left;line-height:1.5em;margin:0px;padding:0px 0px 10px 0px;font-weight:normal;font-size:1em;color:#555555;}
+.profile_header H3 {font-size:1em;color:#555555;font-weight:normal;margin:10px 0px 0px 0px;padding:0px;}
+.profile_header .friends {margin:0px;padding:0px;list-style-type: none;}
+.profile_header .friends LI {display:inline;font-size:1em;padding:0px 10px 0px 0px;}
+.profile_header .friends LI A {color:#555555;text-decoration:none;}
+.profile_header .friends LI A IMG {margin-top:3px;}
+.profile_header .friends LI A:hover {color:#446688;text-decoration:underline;}
+.profile_header .social_networks {width:100%;margin:0px;padding:0px;}
+.profile_header .social_network {float:left;padding:0px 10px 0px 0px;}
+.profile_header .social_network A {font-size:1em;color:#777777;text-decoration:none;}
+.profile_header .social_network A:hover {color:#555555;text-decoration:underline;}
+.profile_header .twitter {background-image:url("../img/twitter.png");background-repeat:no-repeat;background-position:0 2;margin:0px 10px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .tumblr {background-image:url("../img/tumblr.png");background-repeat:no-repeat;background-position:0 2;margin:0px 10px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .facebook {background-image:url("../img/facebook.png");background-repeat:no-repeat;background-position:0 2;margin:0px 10px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .livejournal {background-image:url("../img/livejournal.png");background-repeat:no-repeat;background-position:0 2;margin:0px 10px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .wordpress {background-image:url("../img/wordpress.png");background-repeat:no-repeat;background-position:0 2;margin:0px 20px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .blogger {background-image:url("../img/blogger.png");background-repeat:no-repeat;background-position:0 2;margin:0px 20px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .googleplus {background-image:url("../img/googleplus.png");background-repeat:no-repeat;background-position:0 2;margin:0px 10px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .rss {background-image:url("../img/feed.png");background-repeat:no-repeat;background-position:0 2;margin:0px 20px 0px 0px;padding:0px 0px 0px 20px;height:22px;}
+.profile_header .controls {padding:10px 0px 10px 0px;}
+.profile_header .button {float:left;margin:0px 10px 0px 0px;}
+.profile_header .button A {background-color:#ddddde;padding:5px;border-radius: 3px;text-decoration:none;color:#555555;}
+.profile_header .button A:hover {background-color:#dddddd;color:#000000;}
+.profile_header .tags {margin:0px 0px 10px 0px;padding:0px;list-style-type: none;}
+.profile_header .tags LI {display:inline;font-size:1em;padding:0px 10px 0px 0px;}
+.profile_header .tags LI A {color:#555555;text-decoration:none;}
+.profile_header .tags LI A:hover {color:#446688;text-decoration:underline;}
+
+.profile_header .badges {margin:0px 0px 10px 0px;padding:0px;list-style-type: none;font-family:"Source Sans Pro";}
+.profile_header .badges LI {display:inline;font-size:0.9em;padding:0px 10px 0px 0px;}
+.profile_header .badges LI A {color:#555555;text-decoration:none;}
+.profile_header .badges LI A:hover {color:#446688;text-decoration:underline;}
+
+.posts {margin:5px; text-align:left;}
+.posts .friends_only {border-top:5px solid #aa0000;}
+.posts .post_wrapper {width:100%;padding:5px 0px 0px 0px;}
+.posts .post {background-color:#ffffff;margin:0px 0px 0px 0px;padding:10px;color:#555555;}
+.posts .post H1 {text-align:left;margin:0px;padding:0px 0px 10px 0px;font-weight:700;font-size:2em;color:#555555;}
+.posts .post H2 {text-align:left;margin:0px;padding:0px 0px 10px 0px;font-weight:700;font-size:2em;color:#555555;}
+.posts .post H1 A:hover {text-decoration:none !important;}
+.posts .post H2 A:hover {text-decoration:none !important;}
+.posts .post P {line-height:1.25em;font-size:1em;}
+.posts .post UL {margin:0px;padding:0px 0px 0px 20px;}
+.posts .post LI {line-height:1.25em;font-size:1em;padding-bottom:0.5em;}
+.posts .post A {color:#000000;text-decoration:none;}
+.posts .post A:hover {color:#446688;text-decoration:underline;}
+.posts .post IMG {width:100%;padding:5px 0px 20px 0px;}
+.posts .post IFRAME {width:100%;padding:5px 0px 20px 0px;}
+.posts .post .photo {width:100%; padding:5px 0px 0px 0px;}
+
+.posts .meta  {padding:10px;border-top:1px solid #eeeeee;background-color:#ffffff;}
+.posts .meta .avatar {float:left; width:64px; padding:0px 10px 0px 0px;}
+.posts .meta .info {}
+.posts .meta .username H3 {font-size:1.1em;color:#777777;font-weight:normal;margin:0px;padding:0px;text-align:left;}
+.posts .meta .username H3  A {color:#555555;text-decoration:none;}
+.posts .meta .username H3 A:hover {color:#446688;text-decoration:underline;}
+.posts .meta .info UL {margin:0px;padding:2px 0px 1px 0px;list-style-type: none;}
+.posts .meta .info LI {color:#999999;display:inline;padding:0px 10px 0px 0px;font-size:1em;}
+.posts .meta .info LI A {color:#888888;text-decoration:none;}
+.posts .meta .info LI A:hover {color:#446688;text-decoration:underline;}
+.posts .meta .like_button {float:right;width:32px;height:32px;background-color:#dddddd;background-image:url("../img/tick.png");}
+.posts .meta .liked {background-color:#55cc55 !important;}
+.posts .meta .waiting {background-color:#bbbbbb !important;}
+.posts .meta .hover {background-color:#cccccc;}
+
+.comments {}
+.comment {background-color:#ffffff;border-top:1px solid #ddddde;padding:0px;padding:20px 10px 20px 10px;}
+.comment .avatar {float:left;width:32px;margin:5px 10px 0px 0px;}
+.comment .body {}
+.comment .body P {margin:0px;padding:0px 0px 5px 0px; font-size:1em; line-height:1.5em;color:#555555;}
+.comment .body LI {line-height:1.25em;font-size:1em; color:#555555;}
+.comment .body A {text-decoration:none;color:#555555;}
+.comment .body A:hover {text-decoration:underline;color:#446688;}
+.comment .body .comment_meta {font-size:0.8em;color:#777777;margin-top:5px;font-family:"Source Sans Pro";}
+.comment .body .comment_meta A {text-decoration:none;color:#777777;}
+.comment .body .comment_meta A:hover {text-decoration:underline;color:#446688;}
+
+.comment .comment_like_button {float:right;width:32px;height:32px;background-color:#dddddd;background-image:url("../img/tick.png");cursor:pointer;}
+.comment .comment_liked {background-color:#55cc55 !important;}
+.comment .waiting {background-color:#bbb !important;}
+.comment .comment_like_button:hover {background-color:#cccccc;}
+
+.comment_form {background-color:#ffffff;padding:20px 10px 20px 10px; border-top:1px solid #ddddde;}
+.comment_form H3 {font-size:1em;font-weight:normal;color:#777777;padding:0px;margin:0px;}
+.comment_form P {font-size:1em;color:#555555;}
+.comment_form P A {color:#888888;text-decoration:none;}
+.comment_form P A:hover {color:#446688;text-decoration:underline;}
+.comment_form TEXTAREA {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+.comment_form .controls {text-align:right;}
+.comment_form INPUT[type=submit] {font-family:"Source Sans Pro";padding:5px;font-size:1.1em;margin:10px 0px 0px 0px;}
+
+
+.tiles {margin:5px 0px 0px 0px; text-align:left;padding:10px 0px 0px 0px;}
+.tiles .friends_only {border-top:5px solid #aa0000;}
+.tiles .tile {margin:0px 0px 5px 0px;width:100%;}
+.tiles .tile .post {color:#555555;padding:20px;background-color:#ffffff;overflow:hidden;}
+.tiles .tile .post H1,.tiles .tile .post H2 {text-align:left;margin:0px;padding:0px 0px 5px 0px;font-weight:700;font-size:1.6em;color:#555555;}
+.tiles .tile .post H1 A:hover {text-decoration:none !important;}
+.tiles .tile .post H2 A:hover {text-decoration:none !important;}
+.tiles .tile A {text-decoration:none;color:#555555;}
+.tiles .tile A:hover {text-decoration:underline;color:#446688;}
+.tiles .tile .post P {line-height:1.25em;font-size:1em;margin:0px;padding:5px 0px 5px 0px;}
+.tiles .tile .post UL {margin:0px;padding:5px 0px 0px 20px;}
+.tiles .tile .post LI {line-height:1.25em;font-size:1em;padding-bottom:0.5em;}
+.tiles .tile .photo {width:100% !important;}
+.tiles .tile .post IMG {width:100% !important;padding:5px 0px 20px 0px;}
+.tiles .tile .post IFRAME {width:100%;padding:5px 0px 20px 0px;}
+.tiles .tile .post A {color:#000000;text-decoration:none;}
+.tiles .tile .post A:hover {color:#446688;text-decoration:underline;}
+.tiles .tile .post .photo {width:100%; overflow:hidden;padding:5px 0px 5px 0px;}
+.tiles .tile .meta {margin:0px 0px 0px 0px;padding:10px;background-color:#ffffff;border-top:1px solid #eeeeee;}
+.tiles .tile .meta .avatar {float:left;width:32px;}
+.tiles .tile .meta .avatar IMG{border:0px;}
+.tiles .tile .meta .info {float:left;color:#888888;padding:0px 0px 0px 10px;font-size:1em; width:226px;font-weight:bold;}
+.tiles .tile .meta .controls {margin:0px;padding:0px 0px 0px 0px;list-style-type: none;font-weight:normal;font-size:0.8em;}
+.tiles .tile .meta .controls LI {display:inline;padding:0px 10px 0px 0px;font-size:1em;}
+.tiles .tile .meta .controls LI A {color:#888888;text-decoration:none;}
+.tiles .tile .meta .controls LI A:hover {color:#446688;text-decoration:underline;}
+.tiles .tile .meta .like_button {float:right;width:32px;height:32px;background-color:#dddddd;background-image:url("../img/tick.png");}
+.tiles .tile .meta .liked {background-color:#55cc55 !important;}
+.tiles .tile .meta .waiting {background-color:#bbbbbb !important;}
+.tiles .tile .meta .hover {background-color:#cccccc;}
+
+#account_posts {width:100%; margin:0px auto 0px auto; text-align:center; background-color:#ffffff; padding:40px;}
+#account_posts H1 {text-align:center;margin:0px;padding:0px;font-weight:normal;font-size:3em;}
+#account_posts H3 {text-align:left;margin:0px;padding:20px 0px 10px 0px;font-weight:normal;font-size:1.6em;color:#555555;}
+#account_posts P {font-size:1em;text-align:left;color:#777777;}
+#account_posts .post {padding:5px;margin:1px;background-color:#ddddde;}
+#account_posts .draft {}
+#account_posts H4 {text-align:left;margin:0px;padding:0px;font-weight:normal;font-size:1em;color:#555555;}
+#account_posts H4 A {color:#555555;text-decoration:none;}
+#account_posts H4 A:hover {color:#446688;text-decoration:underline;}
+#account_posts .meta {margin:0px;padding:0px;list-style-type: none;text-align:left;}
+#account_posts .meta LI {display:inline;padding:0px 10px 0px 0px;font-size:0.8em;}
+#account_posts .meta LI A {color:#888888;text-decoration:none;}
+#account_posts .meta LI A:hover {color:#446688;text-decoration:underline;}
+ 
+#account_friends {} 
+#account_friends H1 {text-align:center;margin:0px;padding:0px;font-weight:normal;font-size:3em;}
+#account_friends P {text-align:center !important; font-size:1em;text-align:left;color:#777777;margin:10px 0px 20px 0px;}
+#account_friends .friend {margin:5px 0px 0px 5px;background-color:#ddddde; padding:5px;}
+#account_friends .friend .avatar {float:left;}
+#account_friends .friend .info {float:left;padding:0px 0px 0px 10px;}
+#account_friends .friend .info .username {font-size:1em;}
+#account_friends .friend .info .username A {color:#555555;text-decoration:none;}
+#account_friends .friend .info .username A:hover {color:#446688; text-decoration:underline;}
+#account_friends .friend .info .meta {font-size:0.8em;color:#888888;}
+
+#tags_page .tags {text-align:center;}
+#tags_page .tags .tag {background-color:#ffffff;border-bottom:1px solid #aaaaaa;border-right:1px solid #aaaaaa;padding:5px;margin:5px;}
+#tags_page .tags .tag SMALL {font-size:12px;color:#777777;}
+#tags_page .tags .tag A {text-decoration:none;color:#555555;}
+#tags_page .tags .tag A:hover {text-decoration:underline;color:#446688;}
+
+#messages .message_wrapper {margin:0px auto 1px auto;}
+#messages .message {margin:5px;background-color:#ffffff;}
+#messages .message .title H3 { padding:10px 10px 0px 10px; margin:0px;font-size:1.1em; font-weight:normal;color:#555555; margin:0px;}
+#messages .message .title H3 A { color:#555555; text-decoration:none;}
+#messages .message .title H3 A:hover { color:#446688; text-decoration:underline;}
+#messages .message .body { padding:20px; font-size:1em; color:#555555; }
+#messages .message .body A {color:#555555;text-decoration:none;font-weight:bold;}
+#messages .message .body A:hover {color:#000000;text-decoration:underline;}
+#messages .message .info {border-top:1px solid #ddddde;padding:10px;margin:0px;}
+#messages .message .info .avatar {float:left; width:32px;padding:0px 10px 0px 0px;}
+#messages .message .info .meta {float:left;font-size:0.8em;color:#777777;}
+#messages .message .info .meta A {color:#555555;text-decoration:none;}
+#messages .message .info .meta A:hover {color:#446688;text-decoration:underline;}
+
+#messages .message .button {float:right;padding-left:2px;}
+#messages .message .button A {float:right;background-color:#ddddde;padding:5px;border-radius: 3px;text-decoration:none;color:#555555;}
+#messages .message .button A:hover {background-color:#dddddd;color:#000000;}
+
+#messages .read {background-color:#fafafa;}
+#messages .read .body {color:#bbbbbb;}
+#messages .read .body A {color:#aaaaaa;text-decoration:none;}
+#messages .read .info {border-top:1px solid #ddddde;}
+#messages .read .info .meta A {color:#aaaaaa;}
+
+#messages .selected {border-bottom:3px solid #555555;}
+
+.message_form_wrapper {width:100%px;margin:0px auto 1px auto;}
+.message_form {text-align:left; background-color:#ffffff; padding:10px;}
+.message_form H3 {text-align:left;margin:0px;padding:0px;font-weight:normal;font-size:1em;}
+.message_form H4 {text-align:center;margin:0px;padding:0px;font-weight:normal;font-size:1em;}
+.message_form P {text-align:left;color:#777777;font-size:0.8em;margin:0px;padding:0px;}
+.message_form P A {color:#555555;text-decoration:none;}
+.message_form P A:hover {color:#446688;text-decoration:underline;}
+.message_form TEXTAREA {font-family:"Source Sans Pro";border:1px solid #cccccc;padding:3px;font-size:1em;width:100%;}
+.message_form INPUT[type=submit] {font-family:"Source Sans Pro";padding:5px;font-size:1.2em;}
+.message_form SELECT {border:1px solid #cccccc;padding:5px;font-size:1em;margin:10px 0px 10px 0px;}
+
+.user_card .avatar {float:left;padding:5px 0px 5px 0px;}
+.user_card .username {float:left;padding:5px 0px 5px 10px;}
+.user_card .username A {text-decoration:none;color:#555555;}
+.user_card .username A:hover {text-decoration:underline;color:#555555;}
+
+.directory_users {padding:5px;}
+.directory_user {padding:10px;background-color:#ffffff;margin:4px;text-align:left !important;}
+.directory_user .karma {float:right;text-align:right;font-size:2em;color:#ddd;margin:0px;padding:0px;cursor:pointer;display:none;}
+.directory_user .avatar {float:left;padding:0px 10px 0px 0px;}
+.directory_user .username {float:left;}
+.directory_user .username H3 {margin:0px;padding:0px;font-size:1.5em;font-weight:normal;}
+.directory_user .username H3 A{text-decoration:none;color:#555555;}
+.directory_user .username H3 A:hover {text-decoration:underline;color:#446688;}
+.directory_user .counts {list-style-type:none;margin:0px;padding:0px;}
+.directory_user .counts LI {font-size:0.8em;color:#777777;}
+.directory_user .bio {font-size:0.8em;color:#555555;}
+.directory_user .social_networks {margin:3px 0px 0px 0px;padding:5px 0px 5px 5px;list-style-type: none;text-align:left;float:left;}
+.directory_user .social_networks LI {display:inline;padding:0px 5px 0px 0px;font-size:0.8em;}
+.directory_user .links {margin:0px;padding:5px 0px 5px 5px;list-style-type: none;text-align:right;float:right;}
+.directory_user .links LI {display:inline;background-color:#dddddd;border-radius: 2px;text-decoration:none;color:#555555;padding:2px 5px 2px 5px;font-size:0.8em;}
+.directory_user .links LI:hover {background-color:#eeeeee;}
+.directory_user .links LI  A {text-decoration:none;color:#555;}
